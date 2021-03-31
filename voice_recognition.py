@@ -2,14 +2,13 @@
 Voice Recognition
 '''
 
-import speech_recognition as sr
-
-r = sr.Recognizer()
-with sr.Microphone() as source:
+import speech_recognition as voice
+x = voice.Recognizer()
+with voice.Microphone() as source:
     print("Speak Anything now:")
-    audio = r.listen(source)
+    audio = x.listen(source)
     try:
-        text = r.recognize_google(audio)
+        text = x.recognize_google(audio)
         print("You said : {}".format(text))
     except:
         print("Sorry could not recognize what you said")
