@@ -17,8 +17,10 @@ for i in n:
 #Reverse string using 'Slicing'
 print ('\n=======Reverse string using Slicing======')
 x = 'abcdefghij'
+x1=[1, 2, 3, 4, 5]
 print ('string  = abcdefghij',type(x))
 print ('reverse =',x[::-1])
+print (('reverse =',x1[::-1]),type(x1))
 
 #Reverse String using 'reversed()'
 print ('=======Reverse string using Reversed()======')
