@@ -6,10 +6,16 @@ and makesure the latest googletranslate mod
 '''
 from googletrans import Translator
 x = Translator()
-result = x.translate('terimakasih', dest='ja')
-print (result.text)
+result = x.translate('Terimakasih', dest='ja')
+print ('Bahasa Indonesia :',(result.origin, result.src))
+print ('Japan language   :',(result.text, result.dest))
+print ('Pronunciation   :',(result.pronunciation))
+print (result.src)
+print (result.dest)
+
 
 '''
+library
     'af': 'afrikaans',
     'sq': 'albanian',
     'am': 'amharic',
