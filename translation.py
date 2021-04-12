@@ -1,6 +1,6 @@
 '''
 Translation 
-First, pip install googletrans
+First, instal package googletrans
 and makesure the latest googletranslate mod
 
 '''
