@@ -1,2 +1,2 @@
 # python-next
-# Python Repositorie next courses
+# Python Repositorie next tutorial
