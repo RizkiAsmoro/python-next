@@ -19,3 +19,10 @@ yp = np.array([0,7,6,13,10,17])
 
 plt.plot(xp, yp,'o')
 plt.show()
+
+#using only 1 plot
+xa = np.array([0,7,6,13,10,17])
+
+plt.plot(xa)
+plt.show()
+
