@@ -34,7 +34,7 @@ yp = np.array([0,7,6,13,10,17])
 plt.plot(yp, marker ="*") 
 plt.show()
 
-#plotting collor and line
+#plotting color and line
 yp = np.array([0,7,6,13,10,17])
 plt.plot(yp, 'o:r') 
 plt.show()
@@ -56,8 +56,9 @@ Collor references:
 'w'	White
 '''
 
-#marker size and collor
+#marker size and color
+# ms for the size, mfc(markerfacecolor), mec(markeredgecolor)
 yp = np.array([0,7,6,13,10,17])
-plt.plot(yp, marker = 'o', ms = 20, mfc = 'g') 
+plt.plot(yp, marker = 'o', ms = 20, mfc = 'y', mec = 'r') 
 plt.show()
 
