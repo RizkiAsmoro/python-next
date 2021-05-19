@@ -55,3 +55,9 @@ Collor references:
 'k'	Black	
 'w'	White
 '''
+
+#marker size and collor
+yp = np.array([0,7,6,13,10,17])
+plt.plot(yp, marker = 'o', ms = 20, mfc = 'g') 
+plt.show()
+
