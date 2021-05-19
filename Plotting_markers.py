@@ -1,13 +1,5 @@
 '''
 Plotting Markers
-'''
-import matplotlib.pyplot as plt
-import numpy as np
-
-yp = np.array([0,7,6,13,10,17])
-plt.plot(yp, marker ="*") 
-plt.show()
-'''
 Marker references :
 'o'	Circle	
 '*'	Star	
@@ -33,4 +25,33 @@ Marker references :
 '4'	Tri Right	
 '|'	Vline	
 '_'	Hline
+'''
+import matplotlib.pyplot as plt
+import numpy as np
+
+#Marker stars only 1 plot
+yp = np.array([0,7,6,13,10,17])
+plt.plot(yp, marker ="*") 
+plt.show()
+
+#plotting collor and line
+yp = np.array([0,7,6,13,10,17])
+plt.plot(yp, 'o:r') 
+plt.show()
+'''
+Line references:
+'-'	 Solid line	
+':'	 Dotted line	
+'--' Dashed line	
+'-.' Dashed/dotted line
+
+Collor references:
+'r'	Red	
+'g'	Green	
+'b'	Blue	
+'c'	Cyan	
+'m'	Magenta	
+'y'	Yellow	
+'k'	Black	
+'w'	White
 '''
